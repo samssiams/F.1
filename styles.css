@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* White background */
+    color: #333; /* Dark Gray text */
+}
+
+.back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+}
+
+.container {
+    width: 50%;
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+.question {
+    margin-bottom: 15px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    background-color: #f9f9f9; /* Light Gray background */
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: padding 0.3s; /* Added transition for padding */
+}
+
+input:hover, select:hover {
+    padding: 10px; /* Adjusted padding on hover */
+}
+
+datalist option {
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+}
+
+.container h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.container h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.container p {
+    margin-bottom: 8px;
+}
+
+.container input[type="text"]::placeholder {
+    color: #555;
+}
+
+.container input:focus, .container select:focus {
+    outline: none;
+}
+
+.container button {
+    background-color: #333;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: padding 0.3s; /* Added transition for padding */
+}
+
+.container button:hover {
+    background-color: #555; /* Darker Gray on hover */
+    padding: 10px; /* Adjusted padding on hover */
+    color: #fff;
+}
